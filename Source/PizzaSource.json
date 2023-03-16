@@ -1,0 +1,12 @@
+{
+    "pizzaList":
+    [
+        {
+            "pizzaName": "Margarita",
+            "pizzaDescription": "",
+            "pizzaCost": "500",
+            "pizzaImage": "https://drive.google.com/file/d/1qkkm0Fo_o67vhBCXGk9-GHe81ZGx5yHj/view?usp=share_link"
+        }
+        
+    ]
+}
