@@ -36,7 +36,7 @@ class ListViewController: UIViewController, UICollectionViewDelegate, UICollecti
                }
            }
     
-    func collectionView(_ pizzaCollectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         config?.pizzaList.count ?? 0
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {

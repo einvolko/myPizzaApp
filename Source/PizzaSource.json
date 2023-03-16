@@ -4,7 +4,7 @@
         {
             "pizzaName": "Margarita",
             "pizzaDescription": "Cheese and tomatos",
-            "pizzaCost": "500",
+            "pizzaCost": 500,
             "pizzaImage": "https://github.com/einvolko/myPizzaApp/blob/main/Source/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg"
         }
         
