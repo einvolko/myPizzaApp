@@ -17,7 +17,6 @@ class ListViewController: UIViewController, UICollectionViewDelegate, UICollecti
     
     @IBOutlet weak var pizzaCollectionView: UICollectionView!
     
-    @IBOutlet weak var rollCollectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,12 +44,12 @@ class ListViewController: UIViewController, UICollectionViewDelegate, UICollecti
         if
             let pizzaCell = cell as? PizzaCollectionViewCell,
             let pizza = config?.pizzaList[indexPath.row] {
-            let url = URL(string: pizza.pizzaImage)
-            let data = try? Data(from: url as! Decoder)
-            pizzaCell.pizzaImageView.image = UIImage(data: data!)
+//            let url = URL(string: pizza.pizzaImage)!
+//            let data = try? Data(contentsOf: url)
+//            pizzaCell.pizzaImageView.image = UIImage(data: data!)
             pizzaCell.pizzaNameLabel.text = pizza.pizzaName
             pizzaCell.pizzaDescriptionLabel.text = pizza.pizzaDescription
-            pizzaCell.pizzaCostLabel.text = String(pizza.pizzaCost)
+            pizzaCell.pizzaCostLabel.text = pizza.pizzaCost
         }
         return cell
     }

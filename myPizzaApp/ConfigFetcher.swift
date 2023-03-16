@@ -9,7 +9,7 @@ import Foundation
 
 class ConfigFetcher {
     
-    let configURL = URL(string: "https://raw.githubusercontent.com/einvolko/myPizzaApp/main/Source/PizzaSource.json?token=GHSAT0AAAAAAB7THJVRLEHAYAJYZYNCJUQYZATIT6A")!
+    let configURL = URL(string: "https://raw.githubusercontent.com/einvolko/myPizzaApp/main/Source/PizzaSource.json?token=GHSAT0AAAAAAB7THJVQ5ZOLLLK7WGBJ65HMZATLPFQ")!
     
     func fetchConfig(completion: @escaping ((Error?, AppConfig?) -> Void)) {
         let request = URLRequest(url: configURL)

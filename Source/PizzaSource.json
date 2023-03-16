@@ -6,6 +6,24 @@
             "pizzaDescription": "Cheese and tomatos",
             "pizzaCost": "500",
             "pizzaImage": "https://github.com/einvolko/myPizzaApp/blob/main/Source/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg"
+        },
+        {
+            "pizzaName": "Cesar",
+            "pizzaDescription": "Cheese, salad and salsa",
+            "pizzaCost": "700",
+            "pizzaImage": "https://github.com/einvolko/myPizzaApp/blob/main/Source/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg"
+        },
+        {
+            "pizzaName": "Four Cheese",
+            "pizzaDescription": "Cheese,Cheese,Cheese,Cheese",
+            "pizzaCost": "800",
+            "pizzaImage": "https://github.com/einvolko/myPizzaApp/blob/main/Source/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg"
+        },
+        {
+            "pizzaName": "Peperoni",
+            "pizzaDescription": "Peperoni and cheese",
+            "pizzaCost": "600",
+            "pizzaImage": "https://github.com/einvolko/myPizzaApp/blob/main/Source/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg"
         }
         
     ]
