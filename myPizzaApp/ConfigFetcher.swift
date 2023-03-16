@@ -9,12 +9,12 @@ import Foundation
 
 class ConfigFetcher {
     
-    let configURL = URL(string: "https://raw.githubusercontent.com/einvolko/myPizzaApp/main/Source/PizzaSource.json?token=GHSAT0AAAAAAB7THJVQLSDAOPIUCTYT7EW6ZATB4FQ")!
+    let configURL = URL(string: "https://raw.githubusercontent.com/t0rn/Pizza/main/Pizza/AppConfig.json")!
     
     func fetchConfig(completion: @escaping ((Error?, AppConfig?) -> Void)) {
         let request = URLRequest(url: configURL)
         let task = URLSession.shared.dataTask(with: request, completionHandler: { (data, response, error) in
-            print("Ok")
+            print("data task result")
             
             if let error = error {
                 print(error)
@@ -33,5 +33,6 @@ class ConfigFetcher {
             }
         })
         task.resume()
+        print("continue execution")
     }
 }

@@ -45,7 +45,7 @@ class ListViewController: UIViewController, UICollectionViewDelegate, UICollecti
         if
             let pizzaCell = cell as? PizzaCollectionViewCell,
             let pizza = config?.pizzaList[indexPath.row] {
-            let url = URL(string: "pizza.pizzaImage")
+            let url = URL(string: pizza.pizzaImage)
             let data = try? Data(from: url as! Decoder)
             pizzaCell.pizzaImageView.image = UIImage(data: data!)
             pizzaCell.pizzaNameLabel.text = pizza.pizzaName
