@@ -15,6 +15,8 @@ class ListViewController: UIViewController, UICollectionViewDelegate, UICollecti
         }
     }
     
+   
+    
     @IBOutlet weak var pizzaCollectionView: UICollectionView!
     
     
@@ -44,12 +46,13 @@ class ListViewController: UIViewController, UICollectionViewDelegate, UICollecti
         if
             let pizzaCell = cell as? PizzaCollectionViewCell,
             let pizza = config?.pizzaList[indexPath.row] {
-//            let url = URL(string: pizza.pizzaImage)!
-//            let data = try? Data(contentsOf: url)
-//            pizzaCell.pizzaImageView.image = UIImage(data: data!)
+            
             pizzaCell.pizzaNameLabel.text = pizza.pizzaName
             pizzaCell.pizzaDescriptionLabel.text = pizza.pizzaDescription
             pizzaCell.pizzaCostLabel.text = pizza.pizzaCost
+            let url = URL(string: pizza.pizzaImage)!
+            let data = try? Data(contentsOf: url)
+            pizzaCell.pizzaImageView.image = UIImage(data: data!)
         }
         return cell
     }
