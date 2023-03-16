@@ -21,14 +21,26 @@ class ListViewController: UIViewController, UICollectionViewDelegate, UICollecti
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        pizzaCollectionView.dataSource = self
+        pizzaCollectionView.delegate = self
+        fetchData()
        
-    
+       
     }
+    func fetchData() {
+               fetcher.fetchConfig { [weak self] (error, config) -> Void in
+                   if let error = error {
+                       return
+                   }
+                   self?.config = config
+               }
+           }
+    
     func collectionView(_ pizzaCollectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         config?.pizzaList.count ?? 0
     }
-    func collectionView(_ pizzaCollectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = pizzaCollectionView.dequeueReusableCell(withReuseIdentifier: "PizzaCollectionViewCell", for: indexPath)
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "PizzaCollectionViewCell", for: indexPath)
         
         if
             let pizzaCell = cell as? PizzaCollectionViewCell,

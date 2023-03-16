@@ -136,10 +136,10 @@
             </objects>
             <point key="canvasLocation" x="573" y="-430"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Home View Controller-->
         <scene sceneID="iOh-EX-acx">
             <objects>
-                <tabBarController id="ZDQ-DG-vzn" sceneMemberID="viewController">
+                <tabBarController id="ZDQ-DG-vzn" customClass="HomeViewController" customModule="myPizzaApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="SiW-Zo-XY6">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

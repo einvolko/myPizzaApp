@@ -21,6 +21,7 @@
 		BF696CE229C3242500113C8B /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF696CE129C3242500113C8B /* AppConfig.swift */; };
 		BF696CE429C32AE700113C8B /* PizzaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF696CE329C32AE700113C8B /* PizzaCollectionViewCell.swift */; };
 		BF696CE629C338BD00113C8B /* ConfigFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF696CE529C338BD00113C8B /* ConfigFetcher.swift */; };
+		BF696CE829C345DD00113C8B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF696CE729C345DD00113C8B /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		BF696CE129C3242500113C8B /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		BF696CE329C32AE700113C8B /* PizzaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaCollectionViewCell.swift; sourceTree = "<group>"; };
 		BF696CE529C338BD00113C8B /* ConfigFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigFetcher.swift; sourceTree = "<group>"; };
+		BF696CE729C345DD00113C8B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				BF696CE329C32AE700113C8B /* PizzaCollectionViewCell.swift */,
 				BF696CDD29C31E4D00113C8B /* BasketViewController.swift */,
 				BF423FEB29C3114C001573D7 /* Main.storyboard */,
+				BF696CE729C345DD00113C8B /* HomeViewController.swift */,
 				BF423FEE29C3114D001573D7 /* Assets.xcassets */,
 				BF423FF029C3114D001573D7 /* LaunchScreen.storyboard */,
 				BF423FF329C3114D001573D7 /* Info.plist */,
@@ -278,6 +281,7 @@
 				BF696CE029C31EFD00113C8B /* PizzaModel.swift in Sources */,
 				BF696CE229C3242500113C8B /* AppConfig.swift in Sources */,
 				BF696CDE29C31E4D00113C8B /* BasketViewController.swift in Sources */,
+				BF696CE829C345DD00113C8B /* HomeViewController.swift in Sources */,
 				BF696CE629C338BD00113C8B /* ConfigFetcher.swift in Sources */,
 				BF423FE829C3114C001573D7 /* SceneDelegate.swift in Sources */,
 				BF696CE429C32AE700113C8B /* PizzaCollectionViewCell.swift in Sources */,
