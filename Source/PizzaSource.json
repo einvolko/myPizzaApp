@@ -26,5 +26,15 @@
             "pizzaImage": "https://raw.githubusercontent.com/einvolko/myPizzaApp/main/Source/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg"
         }
         
+    ],
+    "rollList":
+    [
+        {
+            "rollName": "Margarita",
+            "rollDescription": "Cheese and tomatos",
+            "rollCost": "500",
+            "rollImage": "https://raw.githubusercontent.com/einvolko/myPizzaApp/main/Source/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg"
+        }
+        
     ]
 }

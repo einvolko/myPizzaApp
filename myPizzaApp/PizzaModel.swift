@@ -10,4 +10,11 @@ struct PizzaModel: Codable {
     
 }
 
+struct RollModel: Codable {
+    
+    let rollName : String
+    let rollDescription : String
+    let rollCost : String
+    let rollImage : String
+}
 
