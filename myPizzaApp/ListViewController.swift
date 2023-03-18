@@ -20,15 +20,15 @@ class ListViewController: UIViewController, UICollectionViewDelegate, UICollecti
     
     
     @IBOutlet weak var pizzaCollectionView: UICollectionView!
-//    @IBOutlet weak var rollCollectionView: UICollectionView!
+    @IBOutlet weak var rollCollectionView: UICollectionView!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         pizzaCollectionView.dataSource = self
         pizzaCollectionView.delegate = self
-//        rollCollectionView.dataSource = self
-//        rollCollectionView.dataSource = self
+        rollCollectionView.dataSource = self
+        rollCollectionView.dataSource = self
         fetchData()
         pizzaCollectionView.backgroundView = nil
         pizzaCollectionView.backgroundColor = UIColor .clear

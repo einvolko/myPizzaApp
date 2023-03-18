@@ -24,11 +24,7 @@
             "pizzaDescription": "Peperoni and cheese",
             "pizzaCost": "600",
             "pizzaImage": "https://raw.githubusercontent.com/einvolko/myPizzaApp/main/Source/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg"
-        }
-        
-    ],
-    "rollList":
-    [
+        },
         {
             "rollName": "Margarita",
             "rollDescription": "Cheese and tomatos",

@@ -167,6 +167,7 @@
                     <tabBarItem key="tabBarItem" title="Menu" image="fork.knife.circle.fill" catalog="system" id="yUK-BS-IZh"/>
                     <connections>
                         <outlet property="pizzaCollectionView" destination="7bQ-Sm-ulC" id="3rr-3h-WR7"/>
+                        <outlet property="rollCollectionView" destination="qCc-p3-lS2" id="vna-s3-ZCg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YLF-km-SkY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
