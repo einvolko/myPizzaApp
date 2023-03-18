@@ -1,6 +1,7 @@
 {
     "pizzaList":
     [
+    [
         {
             "pizzaName": "Margarita",
             "pizzaDescription": "Cheese and tomatos",
@@ -25,5 +26,14 @@
             "pizzaCost": 600,
             "pizzaImage": "https://raw.githubusercontent.com/einvolko/myPizzaApp/main/Source/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg"
         }
+    ],
+    [
+        {
+            "pizzaName": "California",
+            "pizzaDescription": "Cheese and tomatos",
+            "pizzaCost": 500,
+            "pizzaImage": "https://raw.githubusercontent.com/einvolko/myPizzaApp/main/Source/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg"
+        }
     ]
+]
 }
